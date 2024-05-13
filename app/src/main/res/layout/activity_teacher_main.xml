@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bgnew"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDaftarKelas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Daftar kelas / siswa"/>
+
+        <Button
+            android:id="@+id/btnMengajar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Materi Mengajar"/>
+
+        <Button
+            android:id="@+id/btnNilai"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Nilai"/>
+
+        <Button
+            android:id="@+id/btnSettingPertanyaan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan Pertanyaan"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Logout"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
